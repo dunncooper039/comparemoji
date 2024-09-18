@@ -1,0 +1,106 @@
+@font-face {
+  font-family: "Apple Color Emoji";
+  src: url(../AppleColorEmoji.ttf);
+}
+@font-face {
+  font-family: "Noto Color Emoji";
+  src: url(../NotoColorEmoji-Regular.ttf);
+}
+@font-face {
+  font-family: "One UI Emoji";
+  src: url(../OneUIEmoji.ttf);
+}
+@font-face {
+  font-family: "Segoe Ui Emoji";
+  src: url(../SegoeUIEmoji.ttf);
+}
+* {
+  margin: 0;
+}
+body {
+  background-color: #000435;
+}
+content{
+  display: grid;
+  justify-content: center;
+  justify-items: center;
+  grid-template-columns: 1fr;
+}
+h1, h2 {
+  color: #FC5E00;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+}
+h3, p {
+  color: #B2CBDE;
+}
+h1 {
+  font-size: 3.5rem;
+  border-bottom: 4px solid #FC5E00;
+  text-align: center;
+  padding: 1rem;
+}
+h2 {
+  font-size: 2.5rem;
+  text-align: center;
+  margin: 15px;
+}
+h3 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 2.25rem;
+  padding: 0.5rem 2rem;
+}
+p {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 500;
+  font-size: 1rem;
+  text-align: center;
+}
+#input {
+  font-size: 1.5rem;
+  border: 4px solid #FC5E00;
+  color: #FC5E00;
+  background-color: #000435;
+  border-radius: 1rem;
+  padding: 0.75rem;
+  width: 90%;
+  min-height: 2rem;
+  text-align: center;
+  margin: 10px auto;
+}
+#input::placeholder {
+  color: #B2CBDEDD;
+  font-family: "Open Sans";
+}
+#input-container {
+  text-align: center;
+}
+.output {
+  border: 4px solid #B2CBDE;
+  border-radius: 20px;
+  font-size: 5rem;
+  margin: 0.5rem 1.5rem;
+}
+#Apple {
+  font-family: "Apple Color Emoji";
+}
+#Google {
+  font-family: "Noto Color Emoji";
+}
+#Samsung {
+  font-family: "One UI Emoji";
+}
+#Microsoft {
+  font-family: "Segoe UI Emoji";
+}
+@media screen and (max-width: 480px) {
+  h1 {
+    font-size: 2.5rem;
+    line-height: 1.25;
+  }
+  h2 {
+    font-size: 1.5rem;
+    line-height: 1;
+  }
+}
