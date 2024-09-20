@@ -1,5 +1,11 @@
 * {
   margin: 0;
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none;  /* Internet Explorer 10+ */
+}
+*-webkit-scrollbar {
+  width: 0;
+  height: 0;
 }
 body {
   background-color: #000435;
@@ -68,14 +74,8 @@ p {
   overflow: hidden;
   background-color: #FFFFFF20;
   overflow: scroll;
-  scrollbar-width: none; /* Firefox */
-  -ms-overflow-style: none;  /* Internet Explorer 10+ */
   text-wrap: nowrap;
-  height: 6rem;
-}
-.output::-webkit-scrollbar {
-  width: 0;
-  height: 0;
+  min-height: 6.625rem;
 }
 #Apple {
   font-family: "Apple Color Emoji";
@@ -89,6 +89,15 @@ p {
 #Microsoft {
   font-family: "Segoe UI Emoji";
 }
+h4{
+  color:#B2CBDE;
+  font-family: "Open Sans";
+  font-size: 1rem;
+  background-color: black;
+  text-align: center;
+  width: 100%;
+  padding: 0.25rem;
+}
 @media screen and (max-width: 480px) {
   h1 {
     font-size: 2.5rem;
@@ -97,5 +106,8 @@ p {
   h2 {
     font-size: 1.5rem;
     line-height: 1;
+  }
+  h4 {
+    font-size: 0.75rem;
   }
 }
