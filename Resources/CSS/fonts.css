@@ -1,16 +1,16 @@
 @font-face {
   font-family: "Apple Color Emoji";
-  src: url(../AppleColorEmoji.ttf);
+  src: url(../Fonts/AppleColorEmoji.ttf);
 }
 @font-face {
   font-family: "Noto Color Emoji";
-  src: url(../NotoColorEmoji-Regular.woff2);
+  src: url(../Fonts/NotoColorEmoji-Regular.woff2);
 }
 @font-face {
   font-family: "One UI Emoji";
-  src: url(../OneUIEmoji.woff2);
+  src: url(../Fonts/OneUIEmoji.woff2);
 }
 @font-face {
   font-family: "Segoe Ui Emoji";
-  src: url(../SegoeUIEmoji.woff2);
+  src: url(../Fonts/SegoeUIEmoji.woff2);
 }
